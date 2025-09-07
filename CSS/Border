@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="CSS 1.css">
 </head>
 <body>
-    <h1>This is my website</h1>
+    <h1 style="text-align:center;">This is my website</h1>
     <br>
     <br>
     <p id="id1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, dolores cupiditate ad ducimus doloribus ab impedit aperiam deserunt eum amet delectus eveniet recusandae odio natus illum possimus voluptate nemo dicta voluptatem. Laborum corrupti perspiciatis recusandae, deleniti laudantium iure? Tempore, reiciendis.</p>
