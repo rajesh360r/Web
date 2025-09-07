@@ -1,0 +1,47 @@
+<!--  HTML  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS 2.css">
+</head>
+<body>
+    <h1 style="text-align: center;">This is my Second Website</h1>
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sequi minus dolorem libero veniam saepe nobis amet, ut necessitatibus! Doloremque quae facilis, praesentium laboriosam dignissimos possimus. Dolorum hic, itaque, amet modi molestias totam, fugit reiciendis exercitationem sed maxime distinctio quo.</p>
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, doloremque laborum cumque praesentium aliquam culpa quod eaque impedit harum fugiat architecto dolorem! Tempora fugit cum necessitatibus ex. Repellat dolorem exercitationem temporibus dignissimos reiciendis ullam perferendis. Veniam repellendus, itaque non iure ipsum ullam temporibus voluptate ducimus dolor cupiditate, quo laboriosam suscipit a placeat, vitae quis beatae error at voluptates distinctio earum.</p>
+</body>
+</html>
+
+
+
+
+<!--  CSS  -->
+
+body {
+    background: linear-gradient(skyblue,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*After Linear Gradient we can 
+     backgorund : linear-gradient(to right,skyblue,lightgreen);
+*/
+
+
+
+/* To add background image 
+
+body {
+    background-image:url(myBackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+}
