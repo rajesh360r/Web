@@ -1,0 +1,19 @@
+<!-- Margin means the space around the element -->
+
+<!-- Padding is the space between content and the border -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS 3.css">
+</head>
+<body>
+    <div id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur similique reiciendis quam delectus qui eum est tempore ullam rerum incidunt praesentium sapiente, amet quod veniam nisi rem laboriosam neque sequi.</div>
+    <div id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illum magni fuga aspernatur error amet? Minima numquam eius repudiandae aliquid fuga quisquam, consequuntur omnis totam perspiciatis dolorem aut repellendus voluptas?</div>
+    
+</body>
+</html>
