@@ -1,0 +1,48 @@
+<!-- HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="testing">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS 1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>My First Website</h1>
+    <br>
+    <br>
+    <p>Very Basic Wesbite</p>
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maxime quae asperiores facere nisi, harum tempore perspiciatis! Soluta ratione, dolores quia rem eligendi placeat esse saepe ipsam aliquid assumenda delectus.</p>
+
+</body>
+</html>
+
+
+
+
+
+<!-- CSS -->
+
+body{
+    background-color:gray;
+}
+
+h1{
+    color: turquoise;
+    font-family: "Press Start 2P" , "Consolas" , sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: double;
+    text-align: center;
+}
+
+p{
+    color:brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
