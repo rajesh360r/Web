@@ -1,3 +1,5 @@
+<!--  HTML  -->
+
 <!-- Margin means the space around the element -->
 
 <!-- Padding is the space between content and the border -->
@@ -17,3 +19,38 @@
     
 </body>
 </html>
+
+
+
+
+<!--  CSS  -->
+
+body {
+    border: 3px solid black;
+    margin: 0px;  /* margin 0px means no space around the element */;
+}
+
+
+
+#box1 {
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    padding: 10px;
+    margin-top: 50px;  /*margin-top 50px means 50px space above the element */
+    margin-bottom:50px;   /*margin-bottom 50px means 50px space bottom the element */
+    margin-left: 50px;   /* margin-left 50px means 50px space left the element */
+     margin-right: 50px;
+}
+/* In place 50px we can also use 50% that means it take percentage according to webpage size */
+
+#box2 {
+    border:5px solid black;
+    width:250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
