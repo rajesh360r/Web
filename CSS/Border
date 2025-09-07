@@ -1,0 +1,48 @@
+<!--  HTML  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS 1.css">
+</head>
+<body>
+    <h1>This is my website</h1>
+    <br>
+    <br>
+    <p id="id1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, dolores cupiditate ad ducimus doloribus ab impedit aperiam deserunt eum amet delectus eveniet recusandae odio natus illum possimus voluptate nemo dicta voluptatem. Laborum corrupti perspiciatis recusandae, deleniti laudantium iure? Tempore, reiciendis.</p>
+    <br>
+    <br>
+    <p id="id2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid architecto tempore, aspernatur itaque totam quia provident tenetur commodi recusandae! Quae porro excepturi repellendus autem ducimus maiores nulla, nemo libero quod rem harum et deserunt, veritatis incidunt iusto soluta ut velit vitae saepe, ex placeat blanditiis? Quae suscipit odit neque veniam.</p>
+    
+</body>
+</html>
+
+
+
+<!--  CSS  -->
+
+h1 {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style:solid;
+    border-right-style: solid;    
+}
+
+#id1 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#id2 {
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;     <!-- We can use gold also -->
+    border-radius: 10px;
+    padding: 10px;
+}
