@@ -1,0 +1,53 @@
+<!--  HTML  -->
+
+<!-- Float :- Positions an element to the left or right side of a content -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS 4.css">
+</head>
+<body>
+    <img id="ID1" src="image2.jpg" alt="My Image" height="200px" width="200px">
+    <img id="ID2" src="image3.jpg" alt="Image 2" height="200px" width="200px">
+    <img id="ID3" src="image4.jpg" alt="Image 3" height="200px" width="200px">
+    <br>
+    <br>
+
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laudantium consequuntur et rerum quod dicta eveniet praesentium nobis assumenda dolore quasi accusamus provident, magni vel dignissimos vero saepe maxime quibusdam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, minus impedit pariatur facere sunt consequuntur reprehenderit et labore ut sint. Rem at ad quia distinctio eaque dolore magni recusandae libero.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo incidunt itaque voluptatum explicabo, qui minima ullam quos, doloribus laborum ratione rerum distinctio nobis porro similique harum repudiandae! Dignissimos, animi iusto.</p>
+</body>
+</html>
+
+
+
+
+<!--  CSS  -->
+
+#ID1 {
+    float: right;       /* Moves the image from left to right */
+    border: 5px solid black;
+}
+
+.box {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    text-align: center;
+    background-color: tomato;
+    float: left;
+}
+
+p {
+    clear: both;  /* clear:both means it will not allow any element to float on both side of the paragraph */    /* We can also we clear:left or clear:right */
+
+}
