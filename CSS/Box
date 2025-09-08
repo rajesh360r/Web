@@ -1,0 +1,48 @@
+<!--  HTML  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS 5.css"
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, incidunt aut suscipit voluptate, minus necessitatibus assumenda tenetur ex ipsum aperiam, eius quae. Quos fugit odit recusandae repudiandae neque officiis accusantium.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quia. Perferendis neque a exercitationem ad laboriosam enim doloribus laborum, maxime possimus delectus unde eos ducimus quos ut assumenda aliquam. Nesciunt?</p>
+
+    <div id="box1"></div>
+    <div id="box2"></div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error placeat voluptates tempore iure laboriosam repellat obcaecati accusantium animi. Delectus, praesentium dicta. Alias, quibusdam dolore quidem laborum incidunt obcaecati quos?</p>
+ 
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora provident laboriosam accusantium unde nostrum, sunt, autem distinctio enim modi quibusdam corrupti alias molestiae possimus incidunt repudiandae animi praesentium dolor asperiores!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus iste voluptate assumenda aspernatur? Sed commodi voluptas nesciunt provident? Dicta accusamus sint recusandae assumenda repellat excepturi nisi, cum tempore corporis.</p>
+</body>
+</html>
+
+
+
+
+<!--  CSS  -->
+
+#box1 {
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+    position:relative; /* position:relative means the element is positioned relative to its normal position , it means if position is in relative we can move the elements using top , bottom , left or right . if position is in static which is the default one we cannot move the elements . */
+    top: 150px;   /* Moves the element 150px down from the top */
+    left: 150px; /* Moves the element 150px right from the left */
+
+    /* The difference between relative and absolute is that relative leaves space for the element in the page but absolute doesnot leaves space */
+}
+
+#box2 {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
+
